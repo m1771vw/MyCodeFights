@@ -54,6 +54,7 @@
     <Compile Include="adjacentElementsProductClassUnitTests.cs" />
     <Compile Include="checkPalindromeClassUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shapeAreaClassUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeFights\CodeFights.csproj">

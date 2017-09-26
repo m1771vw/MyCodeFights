@@ -12,16 +12,19 @@ namespace CodeFights
         // return 21
         public int adjacentElementsProduct(int[] inputArray)
         {
-            int tempBig = -100000000;
-            for(int i = 0; i < inputArray.Length-1; i++)
+            int tempBig = inputArray[0] * inputArray[1]; 
+            for(int i = 1; i < inputArray.Length-1; i++)
             {
-                if(inputArray[i]*inputArray[i+1] >= tempBig)
+                int tempProduct = inputArray[i] * inputArray[i + 1];
+                if(tempBig <= tempProduct)
                 {
-                    tempBig = inputArray[i] * inputArray[i + 1];
+                    tempBig = tempProduct;
                 }
             }
 
             return tempBig;
         }
+
+
     }
 }
