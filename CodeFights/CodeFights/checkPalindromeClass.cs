@@ -9,7 +9,7 @@ namespace CodeFights
     public class checkPalindromeClass
     {
         // "aabaa"
-        public bool checkPalindrome(string inputString)
+        public bool oldCheckPalindrome(string inputString)
         {
             int i = 0;
             if (inputString.Length % 2 == 0)
@@ -27,6 +27,14 @@ namespace CodeFights
 
             }
             return true;
+        }
+
+        public bool checkPalindrome(string inputString)
+        {
+            char[] reverseString = inputString.ToCharArray();
+            Array.Reverse(reverseString);
+
+            return new string(reverseString).Equals(inputString);
         }
     }
 }

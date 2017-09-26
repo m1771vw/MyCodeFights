@@ -12,8 +12,8 @@ namespace CodeFights
         {
             checkPalindromeClass jb = new checkPalindromeClass();
 
-            Console.WriteLine("Is racecar a palindrome? " + jb.checkPalindrome("racecar"));
-            Console.WriteLine("Is chocolate a palindrome? " + jb.checkPalindrome("chocolate"));
+            Console.WriteLine("Is racecar a palindrome? " + jb.oldCheckPalindrome("racecar"));
+            Console.WriteLine("Is chocolate a palindrome? " + jb.oldCheckPalindrome("chocolate"));
             
 
 
