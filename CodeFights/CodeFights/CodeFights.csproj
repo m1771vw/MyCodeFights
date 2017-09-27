@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="adjacentElementsProductClass.cs" />
     <Compile Include="checkPalindromeClass.cs" />
+    <Compile Include="makeArrayConsecutive2Class.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shapeAreaClass.cs" />

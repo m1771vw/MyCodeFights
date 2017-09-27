@@ -10,11 +10,11 @@ namespace CodeFights
     {
         static void Main(string[] args)
         {
-            checkPalindromeClass jb = new checkPalindromeClass();
+            makeArrayConsecutive2Class arrayClass = new makeArrayConsecutive2Class();
+            int[] testArray = new int[] { 6, 2, 3, 8 };
+            arrayClass.makeArrayConsecutive2(testArray);
 
-            Console.WriteLine("Is racecar a palindrome? " + jb.oldCheckPalindrome("racecar"));
-            Console.WriteLine("Is chocolate a palindrome? " + jb.oldCheckPalindrome("chocolate"));
-            
+
 
 
             Console.ReadKey();

@@ -30,5 +30,17 @@ namespace CodeFights.CodeFightUnitTests
             Assert.AreEqual(1, sa.shapeArea(1));
         }
 
+        [TestMethod()]
+        public void shapeAreaTest4()
+        {
+            Assert.AreEqual(25, sa.shapeArea(4));
+        }
+
+        [TestMethod()]
+        public void shapeAreaTest5()
+        {
+            Assert.AreEqual(41, sa.shapeArea(5));
+        }
+
     }
 }

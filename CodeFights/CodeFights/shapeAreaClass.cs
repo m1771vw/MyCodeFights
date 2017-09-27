@@ -12,11 +12,17 @@ namespace CodeFights
         // n = 3, area is 13
         // n = 4, area is 25
         // n = 5, area is 41
-        public int shapeArea(int n)
+        public int oldShapeArea(int n)
         {
             if (n == 1)
                 return 1;
-            return n*2-1 + shapeArea(n - 1)*2;
+            return (n * 4 - 4) + oldShapeArea(n - 1);
         }
+
+        public int shapeArea(int n)
+        {
+            return n * n + (n - 1) * (n - 1);
+        }
+
     }
 }
