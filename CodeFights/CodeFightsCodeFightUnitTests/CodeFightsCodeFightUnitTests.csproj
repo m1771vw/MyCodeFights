@@ -52,7 +52,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="adjacentElementsProductClassUnitTests.cs" />
+    <Compile Include="AllLongestStringsClassUnitTests.cs" />
+    <Compile Include="AlmostIncreasingSequenceUnitTests.cs" />
     <Compile Include="checkPalindromeClassUnitTests.cs" />
+    <Compile Include="makeArrayConsecutive2ClassUnitTests.cs" />
+    <Compile Include="MatrixElementsSumClassUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shapeAreaClassUnitTests.cs" />
   </ItemGroup>

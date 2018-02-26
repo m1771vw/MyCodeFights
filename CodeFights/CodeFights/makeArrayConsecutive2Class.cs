@@ -23,7 +23,7 @@ namespace CodeFights
             {
                 if(statues[i+1] - statues[i] != 1)
                 {
-                    numbersMissing++;
+                    numbersMissing += ((statues[i+1] - statues[i] - 1));
                 }
             }
             statues.ToList().ForEach(Console.WriteLine);
@@ -34,15 +34,19 @@ namespace CodeFights
         public int[] sortArray(int[] statues, int arrayLength)
         {
             int temp = 0;
-            for (int i = 0; i < statues.Length-1; i++)
+            for (int i = 0; i < statues.Length; i++)
             {
-                //[2, 3, 7, 4, 10]
-                if (statues[i] > statues[i + 1])
+                for (int j = 0; j < statues.Length-i-1; j++)
                 {
-                    temp = statues[i];
-                    statues[i] = statues[i + 1];
-                    statues[i + 1] = temp;
+                    if (statues[j] > statues[j + 1])
+                    {
+                        temp = statues[j];
+                        statues[j] = statues[j + 1];
+                        statues[j + 1] = temp;
+                    }
                 }
+                //[2, 3, 7, 4, 10]
+                
                 
             }
             return statues;

@@ -10,10 +10,11 @@ namespace CodeFights
     {
         static void Main(string[] args)
         {
-            makeArrayConsecutive2Class arrayClass = new makeArrayConsecutive2Class();
-            int[] testArray = new int[] { 6, 2, 3, 8 };
-            arrayClass.makeArrayConsecutive2(testArray);
-
+            string[] testArray = new string[] { "aba", "aa", "ad", "vcd", "aba" };
+            string[] expected = new string[] { "aba", "vcd", "aba" };
+            AllLongestStringsClass alsc = new AllLongestStringsClass();
+            
+            //Console.WriteLine(alsc.allLongestStrings(testArray));
 
 
 
