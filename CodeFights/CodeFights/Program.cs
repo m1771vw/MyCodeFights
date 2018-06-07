@@ -10,14 +10,11 @@ namespace CodeFights
     {
         static void Main(string[] args)
         {
-            string[] testArray = new string[] { "aba", "aa", "ad", "vcd", "aba" };
-            string[] expected = new string[] { "aba", "vcd", "aba" };
-            AllLongestStringsClass alsc = new AllLongestStringsClass();
+            string s1 = "a(bc)de";
+            ReverseParentheses rp = new ReverseParentheses();
+            rp.reverseParenthesesFunction(s1);
             
             //Console.WriteLine(alsc.allLongestStrings(testArray));
-
-
-
             Console.ReadKey();
         }
     }

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15A659BF-55B3-487E-86D2-11913D1ADE5D}</ProjectGuid>
+    <ProjectGuid>{679E4639-F27E-4EF5-A98C-6DD43A9900F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeFightsCodeFightUnitTests</RootNamespace>
-    <AssemblyName>CodeFightsCodeFightUnitTests</AssemblyName>
+    <RootNamespace>CodeFightsTests</RootNamespace>
+    <AssemblyName>CodeFightsTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -51,15 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="adjacentElementsProductClassUnitTests.cs" />
-    <Compile Include="AllLongestStringsClassUnitTests.cs" />
-    <Compile Include="AlmostIncreasingSequenceUnitTests.cs" />
-    <Compile Include="checkPalindromeClassUnitTests.cs" />
-    <Compile Include="makeArrayConsecutive2ClassUnitTests.cs" />
-    <Compile Include="MatrixElementsSumClassUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseParenthesesTests.cs" />
-    <Compile Include="shapeAreaClassUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeFights\CodeFights.csproj">
