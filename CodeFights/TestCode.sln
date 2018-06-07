@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCode", "TestCode\CodeFights.csproj", "{D9E5E87D-1AB6-4A62-A56E-4D09E81919CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFightsCodeFightUnitTests", "CodeFightsCodeFightUnitTests\CodeFightsCodeFightUnitTests.csproj", "{15A659BF-55B3-487E-86D2-11913D1ADE5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E5E87D-1AB6-4A62-A56E-4D09E81919CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E5E87D-1AB6-4A62-A56E-4D09E81919CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E5E87D-1AB6-4A62-A56E-4D09E81919CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E5E87D-1AB6-4A62-A56E-4D09E81919CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A659BF-55B3-487E-86D2-11913D1ADE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A659BF-55B3-487E-86D2-11913D1ADE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A659BF-55B3-487E-86D2-11913D1ADE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A659BF-55B3-487E-86D2-11913D1ADE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
